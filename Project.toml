@@ -1,0 +1,7 @@
+name = "ParetoEfficiency"
+uuid = "08767baa-1a7b-40c7-9934-3c3c4d8ab7da"
+authors = "Jorge Fernandez-de-Cossio-Diaz <j.cossio.diaz@gmail.com>"
+version = "0.1.0"
+
+[compat]
+julia = "1.6"
