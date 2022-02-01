@@ -1,4 +1,5 @@
-using Test, ParetoEfficiency
+using Test: @test, @testset
+import ParetoEfficiency
 using ParetoEfficiency: strong_dominance, weak_dominance, is_pareto_optimal, pareto_front
 
 N = 1000
@@ -26,6 +27,7 @@ for k in 1:N
         end
     end
     @test is_pareto_optimal(k, X) == is_dominant
+    @test is_pareto_optimal(k, X) == is_pareto_optimal(k, eachcol(X)...)
     if is_dominant
         @test k ∈ p
     end
