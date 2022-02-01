@@ -11,6 +11,7 @@ for i in 1:N, j in i:N
 end
 
 p = pareto_front(X)
+@test pareto_front(eachcol(X)...) == p
 
 # all points in p are not dominated by anybody else
 for k in p, j in 1:N
