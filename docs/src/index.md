@@ -18,7 +18,7 @@ using ParetoEfficiency, CairoMakie
 N = 1000
 X = randn(N, 2)
 
-fig = Figure(resolution=(800, 500))
+fig = Figure(resolution=(640, 400))
 ax = Axis(fig[1,1])
 scatter!(ax, X[:,1], X[:,2], color=:black, markersize=4)
 
