@@ -23,7 +23,6 @@ ParetoEfficiency.pareto_front
 Other unexported functions:
 
 ```@docs
-ParetoEfficiency.pareto_front
 ParetoEfficiency.strong_dominance
 ParetoEfficiency.is_pareto_optimal
 ```
