@@ -2,7 +2,25 @@
 
 *A simple Julia package to calculate the Pareto front of a set of points.*
 
+## Installation
+
+This package is not registered.
+Install with:
+
+```julia
+using Pkg
+Pkg.add(url="https://github.com/cossio/ParetoEfficiency.jl")
+```
+
+## Reference
+
 This package only exports one function:
+
+```@docs
+ParetoEfficiency.pareto_front
+```
+
+Other unexported functions:
 
 ```@docs
 ParetoEfficiency.pareto_front
