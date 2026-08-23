@@ -1,2 +1,3 @@
 [deps]
+ParetoEfficiency = "08767baa-1a7b-40c7-9934-3c3c4d8ab7da"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
