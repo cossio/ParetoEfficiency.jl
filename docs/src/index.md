@@ -24,6 +24,7 @@ Other unexported functions:
 
 ```@docs
 ParetoEfficiency.strong_dominance
+ParetoEfficiency.weak_dominance
 ParetoEfficiency.is_pareto_optimal
 ```
 
